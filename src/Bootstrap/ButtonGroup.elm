@@ -195,10 +195,10 @@ checkboxButtonGroupItem options items =
 {-| Create a toolbar of buttons by composing button groups. Separate groups by margins on the button groups.
 
     ButtonGroup.toolbar []
-        [ ButtonGroup.groupItem []
+        [ ButtonGroup.buttonGroupItem []
             [] -- should contain a list of button items
 
-        , ButtonGroup.groupItem
+        , ButtonGroup.buttonGroupItem
             [ Button.attrs [ class "ml-2" ] ]
             [] -- should contain a list of button items
 
